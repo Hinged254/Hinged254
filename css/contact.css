@@ -1,9 +1,10 @@
 /* General Styles */
 body {
+    background: url('/css/footage/house.jpg') no-repeat center center fixed;
+    background-size: cover;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -33,7 +34,6 @@ nav ul li a {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: url('../Footage/cumple.jpg') no-repeat center center/cover;
     color: #fff;
 }
 
