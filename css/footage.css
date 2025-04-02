@@ -70,9 +70,15 @@ h2 {
 
 /* Image and Video Styles */
 .gallery-item img,
-.gallery-item video {
+.gallery-item iframe {
     width: 45%;
     border-radius: 8px;
+}
+
+/* Fixed aspect ratio for YouTube videos */
+.gallery-item iframe {
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 
 /* Text Styles */
@@ -99,7 +105,7 @@ footer {
     }
 
     .gallery-item img,
-    .gallery-item video,
+    .gallery-item iframe,
     .gallery-item p {
         width: 100%;
     }
